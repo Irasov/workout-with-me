@@ -1,4 +1,5 @@
 @import "fonts";
+@import "vars";
 @import "null";
 
 .mainpage{
@@ -7,6 +8,6 @@
 
 [class*="__container"] {
     margin: 0 auto;
-    max-width: 1342px;
+    max-width: $max-w;
     padding: 0 15px;
 }

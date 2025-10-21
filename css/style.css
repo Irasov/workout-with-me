@@ -87,9 +87,9 @@ html {
 }
 
 body {
-  font-family: "ClashDisplay";
+  font-family: "Inter", sans-serif;
   line-height: 1;
-  color: #e1e1e1;
+  color: rgba(239, 237, 232, 0.65);
   background-color: #171717;
 }
 body._lock {
