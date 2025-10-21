@@ -1,0 +1,12 @@
+@import "fonts";
+@import "null";
+
+.mainpage{
+    flex-grow: 1;
+}
+
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: 1342px;
+    padding: 0 15px;
+}
