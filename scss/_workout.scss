@@ -1,0 +1,297 @@
+.workout {
+
+		// .workout__container
+
+		&__container {
+		}
+
+		// .workout__body
+
+		&__body {
+         padding: 136px 0  0 141px;
+         position: relative;
+		}
+
+		// .workout__title
+
+		&__title {
+         font-family: $third-family;
+         font-weight: 900;
+         font-size: 172px;
+         line-height: 99%;
+         letter-spacing: -0.01em;
+         text-transform: uppercase;
+         color: $text-1;
+         animation-duration: 1s;
+         animation-name: title;
+		}
+
+		// .workout__bg
+
+		&__bg {
+         position: absolute;
+         top: 193px;
+         left: 860px;
+         opacity: 0;
+         animation-duration: 1s;
+         animation-delay: 1s;
+         animation-name: bg;
+         animation-fill-mode: forwards;
+		}
+
+		// .workout__img
+
+		&__img {
+         width: 100%;
+		}
+
+		// .workout__indicators
+
+		&__indicators {
+		}
+
+		// .workout__join
+
+		&__join {
+		}
+
+		// .workout__footer
+
+		&__footer {
+		}
+}
+.indicators {
+  position: absolute;
+  top: 173px;
+  left: 737px;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-name: indicators;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+    &__body {
+      position: relative;
+      width: 659px;
+      height: 587px;
+    }
+
+		// .indicators__run
+
+		&__run {
+         position: absolute;
+         top: 0;
+         left: 415px;
+         padding: 14px 28px;
+         background-color: $shape-1;
+         border-radius: 12px;
+
+		}
+
+		// .indicators__logo
+
+		&__logo {
+         border-radius: 100%;
+         background-color: #efa082;
+         width: 24px;
+         height: 24px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+		}
+
+		// .indicators__img-run
+
+		&__img-run {
+		}
+
+		// .indicators__text
+
+		&__text {
+         display: flex;
+         align-items: flex-end;
+         column-gap: 8px;
+		}
+
+		// .indicators__distance
+
+		&__distance {
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 104%;
+         letter-spacing: -0.1em;
+         text-transform: uppercase;
+         color: $text-1;
+		}
+
+		// .indicators__km
+
+		&__km {
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 150%;
+         letter-spacing: 0.03em;
+         color: $text-2;
+		}
+
+		// .indicators__tutorial
+
+		&__tutorial {
+         position: absolute;
+         top: 389px;
+         left: 0px;
+         display: flex;
+         column-gap: 12px;
+         padding: 20px 23px;
+         border-radius: 12px;
+         background: $shape-2;
+		}
+
+		// .indicators__logo-play
+
+		&__logo-play {
+		}
+
+		// .indicators__img-play
+
+		&__img-play {
+		}
+
+		// .indicators__text-play
+
+		&__text-play {
+         display: flex;
+         flex-direction: column;
+         row-gap: 8px;
+		}
+
+		// .indicators__count-tutorial
+
+		&__count-tutorial {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 100%;
+         letter-spacing: 0.01em;
+         color: $text-1;
+		}
+
+		// .indicators__subtitle-tutorial
+
+		&__subtitle-tutorial {
+         min-width: 108px;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 150%;
+         letter-spacing: 0.03em;
+         color: $text-2;
+		}
+
+		// .indicators__workout
+
+		&__workout {
+         position: absolute;
+         bottom: 0px;
+         right: 0px;
+         display: flex;
+         padding: 23px 17px;
+         border-radius: 12px;
+         background: $shape-3;
+		}
+
+		// .indicators__text-workout
+
+		&__text-workout {
+         display: flex;
+         flex-direction: column;
+         row-gap: 5px;
+		}
+
+		// .indicators__count-workout
+
+		&__count-workout {
+         font-weight: 600;
+         font-size: 40px;
+         line-height: 100%;
+         letter-spacing: 0.03em;
+         color: $text-1;
+		}
+
+		// .indicators__subtitle-workout
+
+		&__subtitle-workout {
+         font-weight: 400;
+         font-size: 13px;
+         line-height: 154%;
+         letter-spacing: 0.08em;
+         color: $text-2;
+		}
+}
+.join {
+   padding: 46px 0 0 0;
+   display: flex;
+   flex-direction: column;
+   row-gap: 50px;
+   animation-duration: 1s;
+   animation-delay: 3s;
+   animation-name: workout;
+   animation-fill-mode: forwards;
+   opacity: 0;
+
+   // .join__title
+
+   &__title {
+      max-width: 560px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.03em;
+      color: $text-2  ;
+   }
+
+   // .join__btn
+
+   &__btn {
+      max-width: 200px;
+      border-radius: 10px;
+      padding: 24px 24px;
+      background-color: $button;
+      font-family: $second-family;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 122%;
+      letter-spacing: 0.06em;
+      color: #fff;
+      text-decoration: none;
+   }
+}
+.footer-workout {
+      padding: 112px 0 0 0;
+		// .footer-workout__title
+
+		&__title {
+         margin: 0 0 33px 0;
+         font-weight: 600;
+         font-size: 14px;
+         line-height: 157%;
+         letter-spacing: 0.07em;
+         color: $text-2;
+		}
+
+		// .footer-workout__companies
+
+		&__companies {
+         display: flex;
+         column-gap: 18px;
+		}
+
+		// .footer-workout__company
+
+		&__company {
+		}
+
+		// .footer-workout__img
+
+		&__img {
+		}
+}
+

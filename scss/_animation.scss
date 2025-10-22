@@ -1,0 +1,43 @@
+@keyframes title {
+  from {
+    transform: translate(-15%,0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes bg {
+  from {
+    transform: translate(-100%,0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes indicators {
+    from {
+    transform: translate(-100%,0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes workout {
+    from {
+    transform: translate(-100%,0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
