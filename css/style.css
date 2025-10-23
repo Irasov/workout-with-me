@@ -249,7 +249,7 @@ body._lock {
 }
 
 .workout__body {
-  padding: 136px 0 0 141px;
+  padding: 136px 0 0 107px;
   position: relative;
 }
 @media (max-width: 1259.98px) {
@@ -760,8 +760,8 @@ body._lock {
 }
 @-webkit-keyframes workout {
   from {
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
+    -webkit-transform: translate(-10%, 0);
+            transform: translate(-10%, 0);
     opacity: 0;
   }
   to {
@@ -772,8 +772,8 @@ body._lock {
 }
 @keyframes workout {
   from {
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
+    -webkit-transform: translate(-10%, 0);
+            transform: translate(-10%, 0);
     opacity: 0;
   }
   to {
@@ -781,4 +781,75 @@ body._lock {
             transform: translate(0, 0);
     opacity: 1;
   }
+}
+.start__body {
+  padding: 200px 0 0 107px;
+}
+.start__title {
+  margin: 0 0 24px 0;
+}
+.start__subtitle {
+  margin: 0 0 50px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: rgba(239, 237, 232, 0.65);
+}
+.start__offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 32px;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: #fafaf9;
+}
+
+.offer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 304px;
+          flex: 0 0 304px;
+  padding: 52px 40px;
+  border-radius: 12px;
+}
+.offer__title {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #fafaf9;
+}
+.offer__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+.offer__text {
+  max-width: 192px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.02em;
+  color: rgba(239, 237, 232, 0.65);
+}
+.offer_bg1 {
+  background: #323443;
+}
+.offer_bg2 {
+  background: #232532;
+}
+.offer_bg4 {
+  background: #4f5261;
 }
