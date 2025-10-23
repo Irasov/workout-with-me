@@ -247,6 +247,22 @@ body._lock {
   padding: 136px 0 0 141px;
   position: relative;
 }
+@media (max-width: 1259.98px) {
+  .workout__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0 0 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+  }
+}
 .workout__title {
   font-family: "SF Pro Display", sans-serif;
   font-weight: 900;
@@ -260,6 +276,34 @@ body._lock {
   -webkit-animation-name: title;
           animation-name: title;
 }
+@media (max-width: 1489.98px) {
+  .workout__title {
+    font-size: 100px;
+    max-width: 600px;
+  }
+}
+@media (max-width: 1259.98px) {
+  .workout__title {
+    text-align: center;
+    font-size: 172px;
+    max-width: none;
+  }
+}
+@media (max-width: 882.98px) {
+  .workout__title {
+    font-size: 122px;
+  }
+}
+@media (max-width: 619.98px) {
+  .workout__title {
+    font-size: 82px;
+  }
+}
+@media (max-width: 398.98px) {
+  .workout__title {
+    font-size: 52px;
+  }
+}
 .workout__bg {
   position: absolute;
   top: 193px;
@@ -267,12 +311,24 @@ body._lock {
   opacity: 0;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
   -webkit-animation-name: bg;
           animation-name: bg;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+@media (max-width: 1489.98px) {
+  .workout__bg {
+    top: 153px;
+    left: 680px;
+  }
+}
+@media (max-width: 1259.98px) {
+  .workout__bg {
+    position: static;
+    max-width: 409px;
+  }
 }
 .workout__img {
   width: 100%;
@@ -283,18 +339,69 @@ body._lock {
   left: 737px;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
   -webkit-animation-name: indicators;
           animation-name: indicators;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   opacity: 0;
 }
+@media (max-width: 1489.98px) {
+  .indicators {
+    top: 153px;
+    left: 580px;
+  }
+}
+@media (max-width: 1259.98px) {
+  .indicators {
+    top: 400px;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 882.98px) {
+  .indicators {
+    top: 270px;
+  }
+}
+@media (max-width: 619.98px) {
+  .indicators {
+    top: 240px;
+  }
+}
+@media (max-width: 398.98px) {
+  .indicators {
+    top: 140px;
+  }
+}
 .indicators__body {
   position: relative;
   width: 659px;
   height: 587px;
+}
+@media (max-width: 689.98px) {
+  .indicators__body {
+    width: 459px;
+    height: 687px;
+  }
+}
+@media (max-width: 619.98px) {
+  .indicators__body {
+    width: 459px;
+    height: 647px;
+  }
+}
+@media (max-width: 460.98px) {
+  .indicators__body {
+    width: 319px;
+  }
+}
+@media (max-width: 398.98px) {
+  .indicators__body {
+    height: 557px;
+  }
 }
 .indicators__run {
   position: absolute;
@@ -303,6 +410,24 @@ body._lock {
   padding: 14px 28px;
   background-color: #ef8964;
   border-radius: 12px;
+}
+@media (max-width: 689.98px) {
+  .indicators__run {
+    padding: 7px 14px;
+    top: 20px;
+    left: 290px;
+  }
+}
+@media (max-width: 619.98px) {
+  .indicators__run {
+    top: 0px;
+    left: 290px;
+  }
+}
+@media (max-width: 460.98px) {
+  .indicators__run {
+    left: 190px;
+  }
 }
 .indicators__logo {
   border-radius: 100%;
@@ -338,12 +463,22 @@ body._lock {
   text-transform: uppercase;
   color: #fafaf9;
 }
+@media (max-width: 689.98px) {
+  .indicators__distance {
+    font-size: 24px;
+  }
+}
 .indicators__km {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
   color: rgba(239, 237, 232, 0.65);
+}
+@media (max-width: 689.98px) {
+  .indicators__km {
+    font-size: 12px;
+  }
 }
 .indicators__tutorial {
   position: absolute;
@@ -358,6 +493,27 @@ body._lock {
   padding: 20px 23px;
   border-radius: 12px;
   background: #303030;
+}
+@media (max-width: 689.98px) {
+  .indicators__tutorial {
+    padding: 10px 12px;
+    top: 429px;
+    left: 0px;
+  }
+}
+@media (max-width: 398.98px) {
+  .indicators__tutorial {
+    top: 359px;
+  }
+}
+@media (max-width: 689.98px) {
+  .indicators__logo-play {
+    width: 20px;
+    height: 20px;
+  }
+}
+.indicators__img-play {
+  max-width: 100%;
 }
 .indicators__text-play {
   display: -webkit-box;
@@ -376,6 +532,11 @@ body._lock {
   letter-spacing: 0.01em;
   color: #fafaf9;
 }
+@media (max-width: 689.98px) {
+  .indicators__count-tutorial {
+    font-size: 16px;
+  }
+}
 .indicators__subtitle-tutorial {
   min-width: 108px;
   font-weight: 400;
@@ -383,6 +544,11 @@ body._lock {
   line-height: 150%;
   letter-spacing: 0.03em;
   color: rgba(239, 237, 232, 0.65);
+}
+@media (max-width: 689.98px) {
+  .indicators__subtitle-tutorial {
+    font-size: 12px;
+  }
 }
 .indicators__workout {
   position: absolute;
@@ -394,6 +560,16 @@ body._lock {
   padding: 23px 17px;
   border-radius: 12px;
   background: #7a29dc;
+}
+@media (max-width: 689.98px) {
+  .indicators__workout {
+    padding: 11px 9px;
+  }
+}
+@media (max-width: 398.98px) {
+  .indicators__workout {
+    bottom: 40px;
+  }
 }
 .indicators__text-workout {
   display: -webkit-box;
@@ -411,6 +587,11 @@ body._lock {
   line-height: 100%;
   letter-spacing: 0.03em;
   color: #fafaf9;
+}
+@media (max-width: 689.98px) {
+  .indicators__count-workout {
+    font-size: 20px;
+  }
 }
 .indicators__subtitle-workout {
   font-weight: 400;
@@ -432,8 +613,8 @@ body._lock {
   row-gap: 50px;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
   -webkit-animation-name: workout;
           animation-name: workout;
   -webkit-animation-fill-mode: forwards;
@@ -461,9 +642,21 @@ body._lock {
   color: #fff;
   text-decoration: none;
 }
+@media (max-width: 460.98px) {
+  .join__btn {
+    padding: 14px 14px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
 
 .footer-workout {
   padding: 112px 0 0 0;
+}
+@media (max-width: 1259.98px) {
+  .footer-workout {
+    padding: 0 0 0 0;
+  }
 }
 .footer-workout__title {
   margin: 0 0 33px 0;
@@ -480,6 +673,13 @@ body._lock {
   -webkit-column-gap: 18px;
      -moz-column-gap: 18px;
           column-gap: 18px;
+}
+@media (max-width: 619.98px) {
+  .footer-workout__companies {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 25px;
+  }
 }
 @-webkit-keyframes title {
   from {

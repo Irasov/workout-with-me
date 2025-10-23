@@ -10,6 +10,13 @@
    &__body {
       padding: 136px 0  0 141px;
       position: relative;
+      @media(max-width: 1259.98px) {
+         display: flex;
+         padding: 20px 0 0 0;
+         flex-direction: column;
+         align-items: center;
+         row-gap: 30px;
+      }
    }
 
    // .workout__title
@@ -24,6 +31,24 @@
       color: $text-1;
       animation-duration: 1s;
       animation-name: title;
+      @media(max-width: 1489.98px) {
+         font-size: 100px;
+         max-width: 600px;
+      }
+      @media(max-width: 1259.98px) {
+         text-align: center;
+         font-size: 172px;
+         max-width: none;
+      }
+      @media(max-width:882.98px) {
+         font-size: 122px;
+      }
+      @media(max-width:619.98px) {
+         font-size: 82px;
+      }
+      @media(max-width:398.98px) {
+         font-size: 52px;
+      }
    }
 
    // .workout__bg
@@ -34,9 +59,17 @@
       left: 860px;
       opacity: 0;
       animation-duration: 1s;
-      animation-delay: 1s;
+      animation-delay: 0.9s;
       animation-name: bg;
       animation-fill-mode: forwards;
+      @media(max-width: 1489.98px) {
+         top: 153px;
+         left: 680px;
+      }
+      @media(max-width: 1259.98px) {
+         position: static;
+         max-width: 409px;
+      }
    }
 
    // .workout__img
@@ -65,15 +98,48 @@
    top: 173px;
    left: 737px;
    animation-duration: 1s;
-   animation-delay: 2s;
+   animation-delay: 1.9s;
    animation-name: indicators;
    animation-fill-mode: forwards;
    opacity: 0;
+   @media(max-width: 1489.98px) {
+      top: 153px;
+      left: 580px;
+   }
+   @media(max-width: 1259.98px) {
+      top: 400px;
+      left: auto;
+      right: auto;
+      margin: 0 auto;
+   }
+   @media(max-width:882.98px) {
+      top: 270px;
+   }
+   @media(max-width:619.98px) {
+      top: 240px;
+   }
+   @media(max-width:398.98px) {
+      top: 140px;
+   }
 
    &__body {
       position: relative;
       width: 659px;
       height: 587px;
+      @media(max-width:689.98px) {
+         width: 459px;
+         height: 687px;
+      }
+      @media(max-width:619.98px) {
+         width: 459px;
+         height: 647px;
+      }
+      @media(max-width:460.98px) {
+         width: 319px;
+      }
+      @media(max-width:398.98px) {
+         height: 557px;
+      }
     }
 
    // .indicators__run
@@ -85,7 +151,18 @@
       padding: 14px 28px;
       background-color: $shape-1;
       border-radius: 12px;
-
+      @media(max-width:689.98px) {
+         padding: 7px 14px;
+         top: 20px;
+         left: 290px;
+      }
+      @media(max-width:619.98px) {
+         top: 0px;
+         left: 290px;
+      }
+      @media(max-width:460.98px) {
+         left: 190px;
+      }
    }
 
    // .indicators__logo
@@ -122,6 +199,9 @@
       letter-spacing: -0.1em;
       text-transform: uppercase;
       color: $text-1;
+      @media(max-width:689.98px) {
+         font-size: 24px;
+      }
    }
 
    // .indicators__km
@@ -132,6 +212,9 @@
       line-height: 150%;
       letter-spacing: 0.03em;
       color: $text-2;
+      @media(max-width:689.98px) {
+         font-size: 12px;
+      }
    }
 
    // .indicators__tutorial
@@ -145,16 +228,29 @@
       padding: 20px 23px;
       border-radius: 12px;
       background: $shape-2;
+      @media(max-width:689.98px) {
+         padding: 10px 12px;
+         top: 429px;
+         left: 0px;
+      }
+      @media(max-width:398.98px) {
+         top: 359px;
+      }
    }
 
    // .indicators__logo-play
 
    &__logo-play {
+      @media(max-width:689.98px) {
+         width: 20px;
+         height: 20px;
+      }
    }
 
    // .indicators__img-play
 
    &__img-play {
+      max-width: 100%;
    }
 
    // .indicators__text-play
@@ -173,6 +269,9 @@
       line-height: 100%;
       letter-spacing: 0.01em;
       color: $text-1;
+      @media(max-width:689.98px) {
+        font-size: 16px;
+      }
    }
 
    // .indicators__subtitle-tutorial
@@ -184,6 +283,9 @@
       line-height: 150%;
       letter-spacing: 0.03em;
       color: $text-2;
+      @media(max-width:689.98px) {
+        font-size: 12px;
+      }
    }
 
    // .indicators__workout
@@ -196,6 +298,12 @@
       padding: 23px 17px;
       border-radius: 12px;
       background: $shape-3;
+      @media(max-width:689.98px) {
+        padding: 11px 9px;
+      }
+      @media(max-width:398.98px) {
+         bottom: 40px;
+      }
    }
 
    // .indicators__text-workout
@@ -214,6 +322,9 @@
       line-height: 100%;
       letter-spacing: 0.03em;
       color: $text-1;
+      @media(max-width:689.98px) {
+        font-size: 20px;
+      }
    }
 
    // .indicators__subtitle-workout
@@ -232,7 +343,7 @@
    flex-direction: column;
    row-gap: 50px;
    animation-duration: 1s;
-   animation-delay: 3s;
+   animation-delay: 2.9s;
    animation-name: workout;
    animation-fill-mode: forwards;
    opacity: 0;
@@ -262,36 +373,48 @@
       letter-spacing: 0.06em;
       color: #fff;
       text-decoration: none;
+      @media(max-width:460.98px) {
+         padding: 14px 14px;
+         font-size: 16px;
+         text-align: center;
+      }
    }
 }
 .footer-workout {
-      padding: 112px 0 0 0;
-		// .footer-workout__title
+   padding: 112px 0 0 0;
+   // .footer-workout__title
+   @media(max-width: 1259.98px) {
+      padding: 0 0 0 0;
+   }
 
-		&__title {
-         margin: 0 0 33px 0;
-         font-weight: 600;
-         font-size: 14px;
-         line-height: 157%;
-         letter-spacing: 0.07em;
-         color: $text-2;
-		}
+   &__title {
+      margin: 0 0 33px 0;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 157%;
+      letter-spacing: 0.07em;
+      color: $text-2;
+   }
 
-		// .footer-workout__companies
+   // .footer-workout__companies
 
-		&__companies {
-         display: flex;
-         column-gap: 18px;
-		}
+   &__companies {
+      display: flex;
+      column-gap: 18px;
+      @media(max-width:619.98px) {
+         flex-wrap: wrap;
+         row-gap: 25px;
+      }
+   }
 
-		// .footer-workout__company
+   // .footer-workout__company
 
-		&__company {
-		}
+   &__company {
+   }
 
-		// .footer-workout__img
+   // .footer-workout__img
 
-		&__img {
-		}
+   &__img {
+   }
 }
 
