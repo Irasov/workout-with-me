@@ -133,6 +133,11 @@ body._lock {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 619.98px) {
+  .header__body {
+    padding: 21px 0;
+  }
+}
 .header__logo {
   z-index: 10;
   font-weight: 700;
