@@ -67,14 +67,6 @@
 		// .item__link
 
 		&__link {
-      display: flex;
-      column-gap: 8px;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 162%;
-      letter-spacing: 0.03em;
-      color: $link;
-      text-decoration: none;
       @media(max-width: 979.98px) {
         justify-content: center;
       }
@@ -94,4 +86,15 @@
 		&__img {
       width: 100%;
 		}
+}
+
+.link {
+  display: flex;
+  column-gap: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  color: $link;
+  text-decoration: none;
 }
