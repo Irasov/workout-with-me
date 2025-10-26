@@ -141,6 +141,10 @@
          color: $text-1;
          background: $link;
          text-decoration: none;
+         transition: all 0.3s ease 0s;
+         &:hover {
+            color: $text-2;
+         }
       }
 }
 

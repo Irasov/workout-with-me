@@ -95,6 +95,13 @@
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
-  color: $link;
+  color: $text-1;
   text-decoration: none;
+  transition: all 0.3s ease 0s;
+  span {
+    color: $link;
+  }
+  &:hover {
+    color: $text-2;
+  }
 }

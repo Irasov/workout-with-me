@@ -253,6 +253,11 @@ body._lock {
   color: #fafaf9;
   text-transform: uppercase;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.header__link:hover {
+  color: rgba(239, 237, 232, 0.65);
 }
 
 .workout__body {
@@ -653,6 +658,8 @@ body._lock {
   letter-spacing: 0.06em;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 460.98px) {
   .join__btn {
@@ -660,6 +667,9 @@ body._lock {
     font-size: 16px;
     text-align: center;
   }
+}
+.join__btn:hover {
+  color: rgba(239, 237, 232, 0.65);
 }
 
 .footer-workout {
@@ -879,6 +889,14 @@ body._lock {
   letter-spacing: 0.02em;
   color: rgba(239, 237, 232, 0.65);
 }
+.offer__link {
+  color: #FAFAF9;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.offer__link:hover {
+  color: rgba(239, 237, 232, 0.65);
+}
 .offer_bg1 {
   background: #323443;
 }
@@ -990,8 +1008,16 @@ body._lock {
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
-  color: #0070c9;
+  color: #fafaf9;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.link span {
+  color: #0070c9;
+}
+.link:hover {
+  color: rgba(239, 237, 232, 0.65);
 }
 
 .footer__body {
@@ -1132,4 +1158,9 @@ body._lock {
   color: #fafaf9;
   background: #0070c9;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.membership__btn:hover {
+  color: rgba(239, 237, 232, 0.65);
 }

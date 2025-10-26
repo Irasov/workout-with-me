@@ -99,6 +99,11 @@
 		// .offer__link
 
 		&__link {
+      color: #FAFAF9;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: $text-2;
+      }
 		}
 
     &_bg1 {
